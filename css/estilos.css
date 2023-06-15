@@ -1,0 +1,71 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+#contenedorTarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.tarjeta{
+    width: 450px;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;}
+
+.tarjeta .contenido{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+.tarjeta img{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+.tarjeta button{
+  border: none;
+  background-color: aquamarine;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.encabezado{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+}
+.carrito{
+color: white;
+padding:10px;
+align-items: center;
+
+
+}
+.carrito i{
+    font-size: 24px;
+
+}
+.carrito span{
+    background-color: rgb(2, 65, 65);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    top: 50px;
+
+
+
+
+
+}
